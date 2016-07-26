@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Webpage to show off my Skills">
+  <meta name="author" content="Evan Lydon">
+  <title>My Super Awesome Webpage</title>
+  <link rel="stylesheet" type="text/css" href="EvansStyles.css" media="screen">
+  <script src="jquery-3.1.0.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button.one").click(function(){
+        $("article.CV").toggle(1000);
+    });
+    $("#about").click(function(){
+        $("article pre").toggle(1000);
+    });
+    $("button.two").click(function(){
+        var div = $("div");
+          div.animate({left: '200px'}, "slow");
+          div.animate({fontSize: '3em'}, "slow");
+    });
+  });
+  </script>
+</head>
+<body>
+
+<header>
+
+  <hgroup>
+    <h1>Awesomeness</h1>
+    <h2>Showing off my skills as a web developer</h2>
+  </hgroup>
+
+  <nav>
+    <ul>
+      <li name="home"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<section>
+<article class="about">
+<h1 id="about" title="Give Me a Click">About me</h1>
+
+<pre>Hi Kota,
+   My name is Evan. I'm a 22 year old software development graduate from galway with a passion for computers and technology in general. I am currently working in the retail industry in galway as a sales assitant in Dunnes stores and although I love the day to day interaction with customers I feel I could be putting my skills as a software developer to better use with a company like shopify.
+   To join your team would be a massive step for me and a challenge that i would absolutely love to undertake. To become apart of such a fast growing company would be a dream come true for me. I would love to begin my hopefully long lasting IT career with shopify and further increase my knowledge and experience with web design and development.
+   Although I have not studied much web development in college, I have developed a massive interest in it and using my software development skills and knowledge learned how to develop websites using HTML5 and CSS3 while also learning how to use the Jquery library.
+   In my spare time i love playing video games, going outside and working out. I have always had a love for video games ever since the first time I watched my Dad playing games on his desktop when i was a small child, from games like Doom and Diablo to simple games like minesweeper and solitare. Ever since those days I have loved playing every single type of video game from horror games to racing games and shooters. Although I do spend a lot of my spare time playing video games, I do still love going outside and being fit as well. I try and go to the gym 5 days a week and keep myself as fit as i possibly can. I also try and get outside as much as possible even though that can be limited by the weather that we have here in galway. Myself and my girlfriend love taking her dog for walks and sitting outside with a coffee whilst people watching.
+   Other hobbies of mine include reading books and creating websites. Although I do not create actual used websites, I still enjoy the process of creating one and styling it in different ways. It gives me a great sense of achievement when i create something that is aesthetically pleasing and has nice features on it.
+   I hope that this paragraph about myself could give you an insight into the type of individual that I am and hopefully shows that I am a good fit for shopify
+</pre>
+
+
+</article>
+
+<button class="one">Hide/Show My CV</button>
+
+<article class="CV">
+
+<h1>CV and Experience</h1>
+
+<address>
+<b>Name: </b>Evan Lydon<br>
+<b>Email: </b>evan_lydon@hotmail.com<br>
+<b>Mobile: </b>085 777 06 07<br>
+<b>Address: </b>Stripe, Furbo, Co.Galway<br>
+</address>
+
+
+<h2>Academic History</h2>
+
+<ul>
+<li>Degree & Honours Degree in Software Development & Computing
+GMIT, Dublin Road Campus, Co. Galway, Ireland<br>
+<b>Areas of study include:</b><br>
+Software engineering<br>
+Operating Systems<br>
+Database Management Systems<br> 
+Graphics Programming<br>
+Mobile Application Development<br>
+Server Side RAD<br>
+Data Centric RAD<br>
+C#<br>
+Java
+</li><br>
+
+<li>Leaving Certificate<br>
+St. Joseph’s Patrician College, Nun’s Island, Co. Galway, Ireland<br>
+7 honours subjects
+</li><br>
+</ul>
+
+
+
+  <h2>Work Experience</h2>
+  
+  <ul>
+  <li>Dunnes Stores<br>
+  Full-time Sales Assistant<br>
+  May 2015 – present</li><br>
+
+  <li>Lydon Associates<br>
+  Full-time Office Administrator<br>
+  September 2012 – September 2013</li><br>
+
+  <li>St. Joseph’s Rowing Club Galway<br>
+  Full-time Junior Coach<br>
+  2012 – 2014</li><br>
+
+  <li>General Floor Staff<br>
+  The Radisson Blu Hotel, Co. Galway<br>
+  July 2014</li><br>
+
+  <li>The Galway Clinic<br>
+  Full-time Carpark Attendant<br>
+  April 2012 – August 2012</li>
+  </ul>
+
+
+
+<h2>Achievements</h2>
+<ul>
+  <li>I received a Galway Sports Award as part of my crew for rowing in 2012</li>
+  <li>Myself and my crew won the Junior 16’s All-Ireland Rowing Championship in 2010</li>
+  <li>My team and I won Cumann na mBunscoil in 2007</li>
+  <li>I was part of the National Children’s Choir for 1 year</li>
+</ul>
+
+
+
+  <h2>Interests & Hobbies</h2>
+  <ul>
+    <li>Creating and developing applications for Windows 8</li>
+    <li>Rowing and fitness</li>
+    <li>Avid gamer</li>
+    <li>Creating websites using HTML5, CSS3 and JQuery</li>
+  </ul>
+
+</article>
+
+<br>
+<article class="finish">
+I hope that this little webpage that i threw together for you has shown my skills as both a software developer and web developer properly and that you enjoyed taking a look at it as well 
+</article>
+
+<br>
+<button class="two">CLICK ME!!!</button>
+<br>
+<div style="background:#98bf21; font-size:-100px, height:100px;width:200px;position:static;">HELLO!
+</div>
+<br>
+
+</section>
+
+
+<footer>
+  <nav>
+    <ul>
+      <li name="home"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
+</body>
+</html>
